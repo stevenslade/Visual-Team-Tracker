@@ -1,0 +1,27 @@
+
+.team-heading {
+    background-color: rgb(59, 91, 104);
+    color: white;
+}
+
+body {
+    background-image: url("../assets/images/officebackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+
+  .card {
+      border-style: solid;
+      border-color: black;
+      border-width: 2px;
+  }
+
+  .card-header {
+    background-color: rgba(135, 206, 235, 0.2);
+  }
+
+  .card-body {
+      background-color: slategray;
+  }

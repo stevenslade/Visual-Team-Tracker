@@ -105,7 +105,7 @@ return `
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 jumbotron mb-3 team-heading">
+            <div class="col-12 jumbotron m-3 team-heading">
                 <h1 class="text-center">Engineering Resources</h1>
             </div>
         </div>
