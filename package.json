@@ -1,0 +1,26 @@
+{
+  "name": "visual-team-tracker",
+  "version": "1.0.0",
+  "description": "VTT is an app that allows you to quickly access your team's basic info",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenslade/Visual-Team-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenslade/Visual-Team-Tracker/issues"
+  },
+  "homepage": "https://github.com/stevenslade/Visual-Team-Tracker#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "jest": "^27.0.6"
+  }
+}
