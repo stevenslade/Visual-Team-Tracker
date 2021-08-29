@@ -1,4 +1,3 @@
-
 const generateTeam = team => {
 
     const generateManager = (manager) => {
@@ -37,20 +36,39 @@ const generateTeam = team => {
 
 const htmlArr = [];
 
-htmlArr.push(
-    team
-    .filter((employee) => employee.role === 'manager' )
-    .map((manager) => generateManager(manager))
+// htmlArr.push(
+//     team
+//     .filter((employee) => employee.role === 'manager' )
+//     .map((manager) => generateManager(manager))
+//     .join("")
+// );
+
+// htmlArr
+//     .push(team.filter((employee) => employee.role === 'manager' )
+//     .map((manager) => generateManager(manager))
+//     .join("")
+//     );
+    
+//     return htmlArr.join("");
+// };
+
+htmlArr.push(team
+    .filter(employee => employee.getRole() === "Manager")
+    .map(manager => generateManager(manager))
+);
+htmlArr.push(team
+    .filter(employee => employee.getRole() === "Engineer")
+    .map(engineer => generateEngineer(engineer))
+    .join("")
+);
+htmlArr.push(team
+    .filter(employee => employee.getRole() === "Intern")
+    .map(intern => generateIntern(intern))
     .join("")
 );
 
-htmlArr
-    .push(team.filter((employee) => employee.role === 'manager' )
-    .map((manager) => generateManager(manager))
-    .join("")
-    );
-    
-    return htmlArr.join("");
+return htmlArr.join("");
+
 };
 
 
