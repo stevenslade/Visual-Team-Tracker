@@ -17,7 +17,7 @@ const idArray = [];
 
 function collectData() {
 
-// start a function to collect the infor on the manager
+// start a function to collect the info about the manager
   function createManager() {
     console.log("Please enter your team details");
     inquirer.prompt([
