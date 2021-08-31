@@ -69,5 +69,5 @@
 
 ## <a id="sample"></a>Example of HTML file
 
-* ![HTML Sample](./dist/index.html)
+* ![HTML Sample](https://stevenslade.github.io/Visual-Team-Tracker/)
 
