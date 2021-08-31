@@ -22,6 +22,10 @@
 
 1. [Video Walkthrough](#video)
 
+1. [Example HTML file](#sample)
+
+1. [Github Repository](#githubrepo)
+
 
 ## <a id="description"></a>Description
 
@@ -63,4 +67,12 @@
 
 ## <a id="video"></a>Video Walkthrough
 
-* [Link to Walkthrough](https:url link to video)
+* [Link to Walkthrough](https://drive.google.com/file/d/1J7bmrqYHMO0WpbXu3tJvjIiokUcP_u8-/view)
+
+## <a id="sample"></a>Example of HTML file
+
+* ![HTML Sample](./dist/index.html)
+
+## <a id="githubrepo"></a>Video Walkthrough
+
+* [Link to Github Repo]()
