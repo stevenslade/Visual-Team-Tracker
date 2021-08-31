@@ -27,7 +27,7 @@
 
 ## <a id="description"></a>Description
 
-* This is a node.js application that generates an index.html file in a subfolder called /dist.  
+* This is a node.js application that generates an index.html file in a subfolder called /dist.  This app starts by prompting you to enter information for the teams manager and then allows you to select additional team memebers, either engineers or interns until the team is completed.  After each team member entry you are prompted to finish or add another member.
 
 ## <a id="screenshot"></a>Screenshot
 
