@@ -24,8 +24,6 @@
 
 1. [Example HTML file](#sample)
 
-1. [Github Repository](#githubrepo)
-
 
 ## <a id="description"></a>Description
 
@@ -73,6 +71,3 @@
 
 * ![HTML Sample](./dist/index.html)
 
-## <a id="githubrepo"></a>Video Walkthrough
-
-* [Link to Github Repo]()
